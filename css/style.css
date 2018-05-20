@@ -59,7 +59,7 @@ header {
 header h1 {
   color: #DADADA;
   font-size: 3.8rem;
-  margin: -160px
+  margin-top: -160px
 }
 
 @media only screen and (min-width: 1072px) {
