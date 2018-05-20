@@ -59,6 +59,7 @@ header {
 header h1 {
   color: #DADADA;
   font-size: 3.8rem;
+  margin: -160px
 }
 
 @media only screen and (min-width: 1072px) {
@@ -179,6 +180,9 @@ header h1 {
 }
 .cd-timeline__img.cd-timeline__img--steam {
   background: #DADADA;
+}
+.cd-timeline__img.cd-timeline__img--team {
+  background: rgb(29, 140, 231);
 }
 
 @media only screen and (min-width: 1072px) {
