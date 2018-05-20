@@ -38,7 +38,7 @@ h1, h2 {
 Patterns - reusable parts of our design
 
 -------------------------------- */
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1072px) {
   .cd-is-hidden {
     visibility: hidden;
   }
@@ -61,7 +61,7 @@ header h1 {
   font-size: 3.8rem;
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1072px) {
   header {
     height: 200px;
     line-height: 200px;
@@ -95,7 +95,7 @@ header h1 {
   background: #DADADA;
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1072px) {
   .cd-timeline {
     margin-top: 3em;
     margin-bottom: 3em;
@@ -126,7 +126,7 @@ header h1 {
   margin-bottom: 0;
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1072px) {
   .cd-timeline__block {
     margin: 4em 0;
   }
@@ -181,7 +181,7 @@ header h1 {
   background: #DADADA;
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1072px) {
   .cd-timeline__img {
     width: 60px;
     height: 60px;
@@ -312,7 +312,7 @@ header h1 {
   }
 }
 
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 1072px) {
   .cd-timeline__content {
     margin-left: 0;
     padding: 1.6em;
