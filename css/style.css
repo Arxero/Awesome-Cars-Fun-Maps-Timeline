@@ -14,13 +14,13 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Droid Serif", serif;
-  color: #7f8c97;
-  background-color: #e9f0f5;
+  font-family: "Open", sans-serif;
+  color: #DADADA;
+  background-color: #232323;
 }
 
 a {
-  color: #acb7c0;
+  color: #51A0CB;
   text-decoration: none;
 }
 
@@ -53,27 +53,27 @@ header {
   height: 200px;
   line-height: 200px;
   text-align: center;
-  background: #303e49;
+  background: #111111;
 }
 
 header h1 {
-  color: white;
-  font-size: 1.8rem;
+  color: #DADADA;
+  font-size: 3.8rem;
 }
 
 @media only screen and (min-width: 1170px) {
   header {
-    height: 300px;
-    line-height: 300px;
+    height: 200px;
+    line-height: 200px;
   }
   header h1 {
-    font-size: 2.4rem;
+    font-size: 3.8rem;
   }
 }
 
 .cd-timeline {
   overflow: hidden;
-  margin: 2em auto;
+  margin: 1em auto;
 }
 
 .cd-timeline__container {
@@ -92,7 +92,7 @@ header h1 {
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #d7e4ed;
+  background: #DADADA;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -139,8 +139,8 @@ header h1 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
-          box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0 0 4px #DADADA, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 0 4px #DADADA, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .cd-timeline__img img {
@@ -162,8 +162,23 @@ header h1 {
   background: #c03b44;
 }
 
-.cd-timeline__img.cd-timeline__img--location {
+.cd-timeline__img.cd-timeline__img--vip {
   background: #f0ca45;
+}
+.cd-timeline__img.cd-timeline__img--idea {
+  background: #e26e01;
+}
+.cd-timeline__img.cd-timeline__img--flask {
+  background: #b943b3;
+}
+.cd-timeline__img.cd-timeline__img--power {
+  background: #8feb6b;
+}
+.cd-timeline__img.cd-timeline__img-tools-and-utensils {
+  background: #da0000;
+}
+.cd-timeline__img.cd-timeline__img--steam {
+  background: #DADADA;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -178,8 +193,8 @@ header h1 {
   }
   .cd-timeline__img.cd-timeline__img--bounce-in {
     visibility: visible;
-    -webkit-animation: cd-bounce-1 0.6s;
-            animation: cd-bounce-1 0.6s;
+    -webkit-animation: cd-bounce-1 1s;
+            animation: cd-bounce-1 1s;
   }
 }
 
@@ -220,11 +235,11 @@ header h1 {
 .cd-timeline__content {
   position: relative;
   margin-left: 60px;
-  background: white;
+  background: #111111;
   border-radius: 0.25em;
   padding: 1em;
-  -webkit-box-shadow: 0 3px 0 #d7e4ed;
-          box-shadow: 0 3px 0 #d7e4ed;
+  -webkit-box-shadow: 0 3px 0 #D40014;
+          box-shadow: 0 3px 0 #D40014;
 }
 
 .cd-timeline__content:after {
@@ -243,11 +258,11 @@ header h1 {
   height: 0;
   width: 0;
   border: 7px solid transparent;
-  border-right: 7px solid white;
+  border-right: 7px solid #D40014;
 }
 
 .cd-timeline__content h2 {
-  color: #303e49;
+  color: #DADADA;
 }
 
 .cd-timeline__content p,
@@ -269,13 +284,13 @@ header h1 {
 .cd-timeline__read-more {
   float: right;
   padding: .8em 1em;
-  background: #acb7c0;
-  color: white;
+  background: #3893E4;
+  color: #DADADA;
   border-radius: 0.25em;
 }
 
 .cd-timeline__read-more:hover {
-  background-color: #bac4cb;
+  background-color: #296AA3;
 }
 
 .cd-timeline__date {
@@ -310,7 +325,7 @@ header h1 {
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: white;
+    border-left-color: #D40014;
   }
   .cd-timeline__read-more {
     float: left;
@@ -330,7 +345,7 @@ header h1 {
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: white;
+    border-right-color: #D40014;
   }
   .cd-timeline__block:nth-child(even) .cd-timeline__read-more {
     float: right;
@@ -342,16 +357,16 @@ header h1 {
   }
   .cd-timeline__content.cd-timeline__content--bounce-in {
     visibility: visible;
-    -webkit-animation: cd-bounce-2 0.6s;
-            animation: cd-bounce-2 0.6s;
+    -webkit-animation: cd-bounce-2 1s;
+            animation: cd-bounce-2 1s;
   }
 }
 
 @media only screen and (min-width: 1170px) {
   /* inverse bounce effect on even content blocks */
   .cd-timeline__block:nth-child(even) .cd-timeline__content.cd-timeline__content--bounce-in {
-    -webkit-animation: cd-bounce-2-inverse 0.6s;
-            animation: cd-bounce-2-inverse 0.6s;
+    -webkit-animation: cd-bounce-2-inverse 1s;
+            animation: cd-bounce-2-inverse 1s;
   }
 }
 
