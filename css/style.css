@@ -23,6 +23,9 @@ a {
   color: #51A0CB;
   text-decoration: none;
 }
+a:hover{
+  color: rgb(98, 181, 226);
+}
 
 img {
   max-width: 100%;
@@ -32,7 +35,6 @@ h1, h2 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
-
 /* -------------------------------- 
 
 Patterns - reusable parts of our design
@@ -155,34 +157,33 @@ header h1 {
   margin-top: -12px;
 }
 
-.cd-timeline__img.cd-timeline__img--picture {
-  background: #75ce66;
-}
-
-.cd-timeline__img.cd-timeline__img--movie {
+.cd-timeline__img.cd-timeline__img--darkred {
   background: #c03b44;
 }
 
-.cd-timeline__img.cd-timeline__img--vip {
+.cd-timeline__img.cd-timeline__img--yellow {
   background: #f0ca45;
 }
-.cd-timeline__img.cd-timeline__img--idea {
+.cd-timeline__img.cd-timeline__img--orange {
   background: #e26e01;
 }
-.cd-timeline__img.cd-timeline__img--flask {
+.cd-timeline__img.cd-timeline__img--purple {
   background: #b943b3;
 }
-.cd-timeline__img.cd-timeline__img--power {
+.cd-timeline__img.cd-timeline__img--green {
   background: #8feb6b;
 }
-.cd-timeline__img.cd-timeline__img-tools-and-utensils {
+.cd-timeline__img.cd-timeline__img-red {
   background: #da0000;
 }
-.cd-timeline__img.cd-timeline__img--steam {
+.cd-timeline__img.cd-timeline__img--white {
   background: #DADADA;
 }
-.cd-timeline__img.cd-timeline__img--team {
+.cd-timeline__img.cd-timeline__img--blue {
   background: rgb(29, 140, 231);
+}
+.cd-timeline__img.cd-timeline__img--dark {
+  background: #111111;
 }
 
 @media only screen and (min-width: 1072px) {
@@ -266,7 +267,7 @@ header h1 {
 }
 
 .cd-timeline__content h2 {
-  color: #DADADA;
+  color: rgb(92, 175, 223);
 }
 
 .cd-timeline__content p,
