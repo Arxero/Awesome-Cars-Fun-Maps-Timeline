@@ -173,11 +173,11 @@ header h1 {
 .cd-timeline__img.cd-timeline__img--green {
   background: #8feb6b;
 }
-.cd-timeline__img.cd-timeline__img-red {
+.cd-timeline__img.cd-timeline__img--red {
   background: #da0000;
 }
 .cd-timeline__img.cd-timeline__img--white {
-  background: #DADADA;
+  background: white;
 }
 .cd-timeline__img.cd-timeline__img--blue {
   background: rgb(29, 140, 231);
