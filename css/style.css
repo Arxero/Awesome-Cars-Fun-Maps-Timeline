@@ -185,6 +185,9 @@ header h1 {
 .cd-timeline__img.cd-timeline__img--dark {
   background: #111111;
 }
+.cd-timeline__img.cd-timeline__img--turquoise {
+  background: #1eb6bb;
+}
 
 @media only screen and (min-width: 1072px) {
   .cd-timeline__img {
