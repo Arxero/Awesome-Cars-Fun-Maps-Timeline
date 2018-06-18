@@ -445,3 +445,49 @@ header h1 {
             transform: translateX(0);
   }
 }
+
+.final {
+  position: relative;
+  width: 700px;
+  background: #111111;
+  border-radius: 0.25em;
+  padding: 1em;
+  margin-bottom: 30px;
+  line-height: 1.6em;
+  -webkit-box-shadow: 0 3px 0 #D40014;
+          box-shadow: 0 3px 0 #D40014;
+}
+
+
+.final:after {
+    /* clearfix */
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.final h2 {
+    color: rgb(92, 175, 223);
+  }
+
+.final::before {
+    /* triangle next to content block */
+    content: '';
+    position: absolute;
+    top: -14px;
+    left: 49%;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-right: 7px solid #D40014;
+    transform: rotate(90deg);
+  }
+
+  .date {
+    opacity: .7;
+  }
+
+  .final h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+  }
