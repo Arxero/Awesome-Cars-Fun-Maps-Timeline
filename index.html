@@ -2,545 +2,661 @@
 <html lang="en" class="no-js">
 
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="img/favicon.png" type="image/png">
 
-	<link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-	<link rel="stylesheet" href="css/reset.css">
-	<!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css">
-	<!-- Resource style -->
-	<link rel="stylesheet" href="css/demo.css">
-	<!-- Demo style -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Resource style -->
+    <link rel="stylesheet" href="css/demo.css">
+    <!-- Demo style -->
 
-	<title>Awesome Cars Timeline</title>
+    <title>Awesome Cars Timeline</title>
 </head>
 
 <body>
-	<script>
-		function refreshPage() {
-			window.location.reload();
-		} 
-	</script>
-	<header>
-		<a href="#" onClick="refreshPage()">
-			<img src="http://i.imgur.com/mnAusIC.png" alt="Awesome Cars">
-		</a>
-		<h1>Official Server</h1>
-		<h1>Timeline</h1>
-	</header>
+    <script>
+        function refreshPage() {
+            window.location.reload();
+        } 
+    </script>
 
-	<section class="cd-timeline js-cd-timeline">
-		<div class="cd-timeline__container">
+    <header>
+        <a href="#" onClick="refreshPage()">
+            <img src="http://i.imgur.com/mnAusIC.png" alt="Awesome Cars">
+        </a>
+        <h1>Official Server</h1>
+        <h1>Timeline</h1>
+    </header>
 
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--orange js-cd-img">
-					<img src="img/cd-icon-idea.svg" alt="Idea">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>The Idea</h2>
-					<p>Maverick shared his idea with Nojarq while they were headed towards their little town they used to live back in the day.
-					</p>
-					<span class="cd-timeline__date">Jan 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--purple js-cd-img">
-					<img src="img/cd-icon-flask.svg" alt="Flask">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Server testing version</h2>
-					<p>A hosting was bought from hosted4.com and throughout the whole test month, the server mod has been created and getting ready
-						 for testing.</p>
-					<span class="cd-timeline__date">Feb 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--white js-cd-img">
-					<img src="img/cd-icon-newlogosteam.png" alt="Steam">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Steam Group</h2>
-					<p>The steam group comes into existence and it was used as a forum for around 6 months. It hosted our
-						<a target="_blank" href="https://steamcommunity.com/groups/awesomecars/discussions/0/385429254936544048/">first admin application</a> and
-						<a target="_blank" href="https://steamcommunity.com/groups/awesomecars/discussions/0/385428943466990412/">free VIP initiative</a>.</p>
-					<a target="_blank" href="https://steamcommunity.com/groups/awesomecars" class="cd-timeline__read-more">Join Gorup</a>
-					<span class="cd-timeline__date">Feb 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--green js-cd-img">
-					<img src="img/cd-icon-power.svg" alt="Power">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Official Launching</h2>
-					<p>After enough testing and polishing all plugins of the server was finally ready for launching. Around 11 PM the server was ordered from Gameservers.bg,
-						all files have been moved at the new hosting and Awesome Cars + Fun Maps was officially born.</p>
-					<a target="_blank" href="steam://connect/93.123.18.81:27017" class="cd-timeline__read-more">Join Game</a>
-					<span class="cd-timeline__date">Feb 29 / 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--darkred js-cd-img">
-					<img src="img/cd-icon-movie.svg" alt="Movie">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Video Trailer</h2>
-					<p>Around 15 days of shooting and editing video with the help of Nojarq the trailer was live and ready to catch new players.</p>
-					<a target="_blank" href="https://www.youtube.com/watch?v=8Mf8ZUnfMkA&list=PLRjQLmPQzOiHFQB0HW6FeURc_UH9UajA4" class="cd-timeline__read-more">Watch Video</a>
-					<span class="cd-timeline__date">March 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--yellow js-cd-img">
-					<img src="img/jihadista.jpg" alt="Movie" style="border-radius: 50%">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>First VIP</h2>
-					<p>Jihadista :[] has been invited to checkout our new server. Shortly thereafter he became the first VIP of the server.
-					</p>
-					<span class="cd-timeline__date"> Early March 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--red js-cd-img">
-					<img src="img/cd-icon-tools-and-utensils.svg" alt="Speedometer">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>First Weekly Boost</h2>
-					<p>After some research, we found that Gametracker.rs was the only place to go for new players and it was decided
-						that the 20€ are well worth it. In result of that, the Server was full almost all the time for a month.</p>
-					<span class="cd-timeline__date">Late March 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--blue js-cd-img">
-					<img src="img/cd-icon-ingot.svg" alt="Gold">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>The Golden Age</h2>
-					<p>Many remember this period with nostalgia, as the best times they ever
-                        had in the server with so many people coming. Such as Saad, HeaD|RolleR, Khraz, Elite[N]o[N]ame=D, *Mr.Fantastic*, LOLUMAD and many many more.</p>
-					<span class="cd-timeline__date">April 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--orange js-cd-img">
-					<img src="img/cd-icon-vip.svg" alt="Picture">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>SUPER VIP and 500 kills = Free VIP</h2>
-					<p><a target="_blank" href="https://i.imgur.com/8y44SVB.png?1">Super VIP</a> was given to those who boost the server and 500 kills for free VIP was introduced. Around that time LOLUMAD was invited to be an admin as well.</p>
-					<a target="_blank" href="https://steamcommunity.com/groups/awesomecars#announcements/detail/799767866960328558" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">June 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--purple js-cd-img">
-					<img src="img/cd-icon-file.svg" alt="Picture">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>The Rules</h2>
-					<p>Just and a reminder how simpe back then the
-						<a target="_blank" href="https://i.imgur.com/mvPlsKh.jpg">rules</a> were. And up at this point there were no rules at all, I felt everything was fine, but oh boy was I wrong.
-						Nonetheless we come a long way since then.</p>
-					<span class="cd-timeline__date">August 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--green js-cd-img">
-					<img src="img/cd-icon-team.svg" alt="People">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>A new Forum</h2>
-					<p>It was decided that steam group cannot fulfill all our wish for creating a community around the server, so
-						<a target="_blank" href="https://i.imgur.com/sOh12dk.png">awesomecs.prophpbb.com</a> was created for that purpose.</p>
-					<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/say-hello-to-the-new-new-forum-t5.html" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Sep 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--dark js-cd-img">
-					<img src="img/cd-icon-boss.svg" alt="People">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Help Admin</h2>
-					<p>Help Admin and later Admin by SMS boosting was introduced as a measure againt the empty server. A thing that later one
-						will lead to a big crysis.</p>
-					<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/real-time-updates-t30-s10.html#p327" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Nov 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--white js-cd-img">
-					<img src="img/cd-icon-500.svg" alt="People">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>The fall of 500 kills for VIP</h2>
-					<p>Desperate times call for desperate measures. We need to BUILD A WALL between VIPs and common folks.</p>
-					<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/admins-vip-t109.html" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Nov 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--darkred js-cd-img">
-					<img src="img/neiko.jpg" alt="People" style="border-radius: 50%">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Neiko Controversy</h2>
-					<p>It did not took much time before
-						<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/admin-abuse-t119.html">first big problem</a> occurs, which was in the face of Neiko after he bought an Admin.
-						<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/lolumad-t142.html">The struggle</a> was real and immediate action was necessary to keep the server under control.</p>
-					<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/retarded-admin-t133.html" class="cd-timeline__read-more"
-					 style="margin-left: 10px">Read more</a>
-					<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/i-quit-t136.html" class="cd-timeline__read-more" style="margin-left: 10px">Read more</a>
-					<span class="cd-timeline__date">Nov 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--purple js-cd-img">
-					<img src="img/cd-icon-map.svg" alt="People">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Nojarq Fun Zone</h2>
-					<p>Nojarq has made his first appearance as a map maker. The map features a big hallway with lots of cars in it, along with
-						3 different fun zones.</p>
-					<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/viewtopic.php?f=9&t=30&p=564&hilit=nojarq_fun_zone#p564"
-					 class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Dec 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--blue js-cd-img">
-					<img src="img/cd-icon-hand.svg" alt="People">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Premium VIP</h2>
-					<p>After Neiko's events, there was no more admin privileges for a boosting the server.
-						<a target="_blank" href="http://i.imgur.com/SxpLJ1f.png">Premium VIP</a> has come with a little extra flags.</p>
-					<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/premium-vip-s-status-payed-admins-after-the-change-t153.html"
-					 class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Dec 2016</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--red js-cd-img">
-					<img src="img/cd-icon-tank.svg" alt="People">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Civil War</h2>
-					<p>LOLUMAD has gone in crazy period in his life and was so toxic that a war versus lolio's bitchets and everyone else was
-						inevitable.
-					</p>
-					<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/lolumad-t269.html" class="cd-timeline__read-more">Read more</a>
-					<span class="cd-timeline__date">Jan 2017</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--turquoise js-cd-img">
-					<img src="img/cd-icon-children.svg" alt="People">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>12 year olds kids Drama</h2>
-					<p>Started back in February this has been a part of the whole carrier of Lolio as an admin, the 12 year old kids and how
-						to deal with them properly. Thank God they did not took over the server.</p>
-					<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/why-is-the-server-dying-and-why-the-pro-players-le-t381.html"
-					 class="cd-timeline__read-more" style="margin-right: 10px">Read more</a>
-					<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/my-opinion-on-the-server-t311.html" class="cd-timeline__read-more"
-					 style="margin-right: 10px">Read more</a>
-					<span class="cd-timeline__date">Feb 2017</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--white js-cd-img">
-					<img src="img/cd-icon-facebook.svg" alt="People">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Facebook Page</h2>
-					<p>First was suggested by Panther, then
-						<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/facebook-page-and-group-vote-t365.html">there was a vote</a> if we should have it. At end it was decided that it can only help us get a better recognition.</p>
-					<a target="_blank" href="https://www.fb.me/awesomecarscs" class="cd-timeline__read-more">Like</a>
-					<span class="cd-timeline__date">March 2017</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--purple js-cd-img">
-					<img src="img/cd-icon-mode.svg" alt="People">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>3 Modes in one and the Consequence</h2>
-					<p>At this point
-						<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/viewtopic.php?f=9&t=30&p=256&hilit=night#p256">Night Deathmatch</a> was active for quite a while, but then I decided to make the server more popular than only cars
-						by
-						<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/real-time-updates-t30-s40.html#p2250">adding classic mode</a> which took place after 10PM and then at 11PM deathmatch started.</p>
-					<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/new-changes-t400.html" class="cd-timeline__read-more"
-					 style="margin-right: 10px">Read More</a>
-					<a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/deathmatch-problem-t244.html" class="cd-timeline__read-more"
-					 style="margin-right: 10px">Read More</a>
-					<span class="cd-timeline__date">May 2017</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--dark js-cd-img">
-					<img src="img/cd-icon-people.svg" alt="People">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Our own Forum</h2>
-					<p>It was announced that all Prophpbb forums will be migrated to Tapatalk Groups including ours. Which required money to
-						be invested into buying something that we actually own ourselves.</p>
-					<a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=2&t=9" class="cd-timeline__read-more">Read More</a>
-					<span class="cd-timeline__date">Sep 2017</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--orange js-cd-img">
-					<img src="img/cd-icon-calendar.svg" alt="People">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Boost Schedule</h2>
-					<p>While Artise was an admin he proposes a great initiative, it was a way to deal with the server being empty. Since then
-						only Maverick remains to regularly boost the server and
-						<a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=8&t=865">result has been great</a>.</p>
-					<a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=8&t=851" class="cd-timeline__read-more">Read More</a>
-					<span class="cd-timeline__date">Nov 2017</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--darkred js-cd-img">
-					<img src="img/cd-icon-evil.svg" alt="People">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Ammar Abuse</h2>
-					<p>Once again we had a big crysis with giving too much power in the hands of kids. Since the last Admin council with Nojarq
-						<a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=8&t=898">was decided</a> the we will never do this mistake again. The whole VIP system has been reworked.</p>
-					<a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=11&t=892&" class="cd-timeline__read-more">Read More</a>
-					<span class="cd-timeline__date">Dec 2017</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--yellow js-cd-img">
-					<img src="img/cd-icon-superhero.svg" alt="People">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Skin Models Crysis</h2>
-					<p>By far the bigest topic for new players skins in which lots of opinion were left in favor of new ones. Maverick's rejection
-						lead to LOLUMAD giving up on the server
-						<a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=2&t=1006">later one</a>.</p>
-					<a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=8&t=992" class="cd-timeline__read-more">Read More</a>
-					<span class="cd-timeline__date">March 2018</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
-
-			<div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--turquoise js-cd-img">
-					<img src="img/roller.gif" alt="Image" style="border-radius: 50%">
-				</div>
-				<!-- cd-timeline__img -->
-
-				<div class="cd-timeline__content js-cd-content">
-					<h2>First Head Admin</h2>
-					<p>Mr.Roller has been let into the team of head admins since he has been helping us getting better everyday from the beginning.</p>
-					<a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=2&t=1160" class="cd-timeline__read-more">Read More</a>
-					<span class="cd-timeline__date">May 2018</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
+    <section class="cd-timeline js-cd-timeline">
+        <div class="cd-timeline__container">
 
             <div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--darkred js-cd-img">
-					<img src="img/cd-icon-map.svg" alt="Image">
-				</div>
-				<!-- cd-timeline__img -->
+                <div class="cd-timeline__img cd-timeline__img--orange js-cd-img">
+                    <img src="img/cd-icon-idea.svg" alt="Idea">
+                </div>
+                <!-- cd-timeline__img -->
 
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Nojarq Neighborhood</h2>
-					<p>First <a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=12&t=86">announced</a> in October of 2017, the new map of Nojarq has finally arrived on the horizon of our map list and it's pretty neat.</p>
-					<a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=2&t=1193" class="cd-timeline__read-more">Read More</a>
-					<span class="cd-timeline__date">June 2018</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>The Idea</h2>
+                    <p>Maverick shared his idea with Nojarq while they were headed towards their little town they used to live
+                        back in the day.
+                    </p>
+                    <span class="cd-timeline__date">Jan 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
             <!-- cd-timeline__block -->
-            
+
             <div class="cd-timeline__block js-cd-block">
-				<div class="cd-timeline__img cd-timeline__img--blue js-cd-img">
-					<img src="img/cd-icon-podcast.svg" alt="Image" style="border-radius: 50%">
-				</div>
-				<!-- cd-timeline__img -->
+                <div class="cd-timeline__img cd-timeline__img--purple js-cd-img">
+                    <img src="img/cd-icon-flask.svg" alt="Flask">
+                </div>
+                <!-- cd-timeline__img -->
 
-				<div class="cd-timeline__content js-cd-content">
-					<h2>Awesome Cars Podcast</h2>
-					<p>An idea of having our own thing like, a talk show or some way of connecting us to the community and everyone gets a better understanding of who is behind the scenes along with discussing important server stuff.</p>
-					<a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=12&t=1216" class="cd-timeline__read-more">Read More</a>
-					<span class="cd-timeline__date">June 2018</span>
-				</div>
-				<!-- cd-timeline__content -->
-			</div>
-			<!-- cd-timeline__block -->
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Server testing version</h2>
+                    <p>A hosting was bought from hosted4.com and throughout the whole test month, the server mod has been created
+                        and getting ready for testing.</p>
+                    <span class="cd-timeline__date">Feb 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--dark js-cd-img">
+                    <img src="img/cd-icon-three.svg" alt="Flask">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Founder Principles</h2>
+                    <p>
+                        In the similar server we played before there were things that we really hated, so we decided they should never exist in our
+                        server.
+                        <br> 1. Admins should not consider themselves as something more than the players and should not be arrogant.
+                        <br> 2. The players should be allowed freedom of speech without being censored.
+                        <br> 3. No admins are allowed to directly change the map. Not even Head Admins.
+                        <br> 4. Hooks will never be added in this server!
+
+                    </p>
+                    <span class="cd-timeline__date">Feb 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
 
 
-		</div>
-	</section>
-	<!-- cd-timeline -->
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--white js-cd-img">
+                    <img src="img/cd-icon-newlogosteam.png" alt="Steam">
+                </div>
+                <!-- cd-timeline__img -->
 
-   
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Steam Group</h2>
+                    <p>The steam group comes into existence and it was used as a forum for around 6 months. It hosted our
+                        <a target="_blank" href="https://steamcommunity.com/groups/awesomecars/discussions/0/385429254936544048/">first admin application</a> and
+                        <a target="_blank" href="https://steamcommunity.com/groups/awesomecars/discussions/0/385428943466990412/">free VIP initiative</a>.</p>
+                    <a target="_blank" href="https://steamcommunity.com/groups/awesomecars" class="cd-timeline__read-more">Join Gorup</a>
+                    <span class="cd-timeline__date">Feb 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
 
-	<center>
-		<div class="final">
-			<span id="dateToday" class="date"></span>
-			<h2>The Day You Join Awesome Cars!</h2>
-			<p>We are well known internationally Counter-Strike 1.6 server, leader in so-called "Cars Mod" genre of the game with more
-				than 20 000 players worldwide.</p>
-		</div>
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--green js-cd-img">
+                    <img src="img/cd-icon-power.svg" alt="Power">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Official Launching</h2>
+                    <p>After enough testing and polishing all plugins of the server was finally ready for launching. Around
+                        11 PM the server was ordered from Gameservers.bg, all files have been moved at the new hosting and
+                        Awesome Cars + Fun Maps was officially born.</p>
+                    <a target="_blank" href="steam://connect/93.123.18.81:27017" class="cd-timeline__read-more">Join Game</a>
+                    <span class="cd-timeline__date">Feb 29 / 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--darkred js-cd-img">
+                    <img src="img/cd-icon-movie.svg" alt="Movie">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Video Trailer</h2>
+                    <p>Around 15 days of shooting and editing video with the help of Nojarq the trailer was live and ready to
+                        catch new players.</p>
+                    <a target="_blank" href="https://www.youtube.com/watch?v=8Mf8ZUnfMkA&list=PLRjQLmPQzOiHFQB0HW6FeURc_UH9UajA4" class="cd-timeline__read-more">Watch Video</a>
+                    <span class="cd-timeline__date">March 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--yellow js-cd-img">
+                    <img src="img/jihadista.jpg" alt="Movie" style="border-radius: 50%">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>First VIP</h2>
+                    <p>Jihadista :[] has been invited to checkout our new server. Shortly thereafter he became the first VIP
+                        of the server.
+                    </p>
+                    <span class="cd-timeline__date"> Early March 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--red js-cd-img">
+                    <img src="img/cd-icon-tools-and-utensils.svg" alt="Speedometer">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>First Weekly Boost</h2>
+                    <p>After some research, we found that Gametracker.rs was the only place to go for new players and it was
+                        decided that the 20€ are well worth it. In result of that, the Server was full almost all the time
+                        for a month.</p>
+                    <span class="cd-timeline__date">Late March 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--blue js-cd-img">
+                    <img src="img/cd-icon-ingot.svg" alt="Gold">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>The Golden Age</h2>
+                    <p>Many remember this period with nostalgia, as the best times they ever had in the server with so many
+                        people coming. Such as Saad, HeaD|RolleR, Khraz, Elite[N]o[N]ame=D, *Mr.Fantastic*, LOLUMAD and many
+                        many more.</p>
+                    <span class="cd-timeline__date">April 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--orange js-cd-img">
+                    <img src="img/cd-icon-vip.svg" alt="Picture">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Free VIP for 500 kills and SUPER VIP</h2>
+                    <p>
+                        <a target="_blank" href="https://i.imgur.com/8y44SVB.png?1">Super VIP</a> was given to those who boost the server and 500 kills for free VIP was introduced.
+                        Around that time LOLUMAD was appointed to be Admin in the server.</p>
+                    <a target="_blank" href="https://steamcommunity.com/groups/awesomecars#announcements/detail/799767866960328558" class="cd-timeline__read-more">Read more</a>
+                    <span class="cd-timeline__date">June 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--purple js-cd-img">
+                    <img src="img/cd-icon-file.svg" alt="Picture">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>The Rules</h2>
+                    <p>
+                        In the beginning there was no need of
+                        <a target="_blank" href="https://i.imgur.com/mvPlsKh.jpg">rules</a>
+                        except for the basic one of "no cheating", but oh boy was I wrong. After a while that lack of rules backfired in the server.
+                        Nonetheless we come a long way since then.</p>
+                    <span class="cd-timeline__date">August 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--green js-cd-img">
+                    <img src="img/cd-icon-team.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>A new Forum</h2>
+                    <p>It was decided that steam group cannot fulfill our needs. So
+                        <a target="_blank" href="https://i.imgur.com/sOh12dk.png">awesomecs.prophpbb.com</a> was created to be the new home for our community.</p>
+                    <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/say-hello-to-the-new-new-forum-t5.html" class="cd-timeline__read-more">Read more</a>
+                    <span class="cd-timeline__date">Sep 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--dark js-cd-img">
+                    <img src="img/cd-icon-boss.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Help Admin</h2>
+                    <p>Help Admin and later Admin by SMS boost was introduced as a measure against the empty server. A decision
+                        that later will lead to a big crisis.</p>
+                    <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/real-time-updates-t30-s10.html#p327" class="cd-timeline__read-more">Read more</a>
+                    <span class="cd-timeline__date">Nov 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--white js-cd-img">
+                    <img src="img/cd-icon-500.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>The Fall of 500 Kills for VIP</h2>
+                    <p>"Desperate times call for desperate measures. We need to BUILD A WALL between VIPs and common folks."
+                        #MakeAwesomeCarsGreatAgain
+                    </p>
+                    <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/admins-vip-t109.html" class="cd-timeline__read-more">Read more</a>
+                    <span class="cd-timeline__date">Nov 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--darkred js-cd-img">
+                    <img src="img/neiko.jpg" alt="People" style="border-radius: 50%">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Neikooo Controversy</h2>
+                    <p>
+                        It did not took much time before
+                        <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/admin-abuse-t119.html">first big problem</a> occurs, which was in the face of Neiko. After he became Admin by SMS he was
+                        reported for abusing his power. Neikooo banned another player for 15 minutes because the player called
+                        him "noob". After that event, LOLUMAD stated constantly to harass him even though he was already
+                        punished.
+                        <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/lolumad-t142.html">
+                            <br>The struggle</a> was real and immediate action was necessary to keep the server under control.
+                        The controversy ended with both Neikooo and Lolumad being punished. Neikoo has been turned into Premium
+                        VIP and LOLUMAD has lost his Admin rights for a week.
+                    </p>
+                    <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/retarded-admin-t133.html" class="cd-timeline__read-more"
+                        style="margin-left: 10px">Read more</a>
+                    <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/i-quit-t136.html" class="cd-timeline__read-more" style="margin-left: 10px">Read more</a>
+                    <span class="cd-timeline__date">Nov 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--red js-cd-img">
+                    <img src="img/cd-icon-file.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>The New Rules</h2>
+                    <p>
+                        After the events with Neikooo it became clear that we need to have some order in the server, without abusing our power as
+                        authorities and at the same time keeping the freedom that we promised to have since the creation
+                        of the server. It was about time, a new RULES to take place in order to keep everyone in check.
+
+                    </p>
+                    <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/rules-t173.html" class="cd-timeline__read-more">Read more</a>
+                    <span class="cd-timeline__date">Dec 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+
+
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--purple js-cd-img">
+                    <img src="img/cd-icon-map.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Nojarq Fun Zone</h2>
+                    <p>Nojarq has created his
+                        <a target="_blank" href="https://gamebanana.com/maps/193206">first map</a> for the server. It's a knife map with big open area, vehicles and a lot of things to
+                        explore. The main feature is Nojarq's throne room with pictures on the walls of all current admins
+                        at that time.</p>
+                    <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/viewtopic.php?f=9&t=30&p=564&hilit=nojarq_fun_zone#p564"
+                        class="cd-timeline__read-more">Read more</a>
+                    <span class="cd-timeline__date">Dec 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--blue js-cd-img">
+                    <img src="img/cd-icon-hand.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Premium VIP</h2>
+                    <p>After Neikooo controversy, there was no more admin privileges for a boosting the server.
+                        <a target="_blank" href="http://i.imgur.com/SxpLJ1f.png">Premium VIP</a> has come with a little extra flags.</p>
+                    <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/premium-vip-s-status-payed-admins-after-the-change-t153.html"
+                        class="cd-timeline__read-more">Read more</a>
+                    <span class="cd-timeline__date">Dec 2016</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--red js-cd-img">
+                    <img src="img/cd-icon-tank.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>The Civil War</h2>
+                    <p> It was late January. Lolumad reached the highest level of toxicity after the new innovations Maverick
+                        made to the server. Refusing to accept any of the new changes, he turned against Maverick and started
+                        to lead his "supporters" in the forum to help him prove his point. Didn't take long for things to
+                        escalate with Lolumad turning against the other admins - starting with Saad, Nojarq and Head|Roller.
+                        <br> The server was on the brink of a Civil War divided between The Admins and Lolumad with his gang
+                        members. After *Mr.Fantastic* presented new evidence against Lolumad's behavior, the admin side prevailed
+                        and his rebellion was overthrown. After these events, some of Lolumad's gang members disappeared,
+                        *Mr.Fantastic* was promoted to admin due to the part he played for ending the war and the server
+                        was once again peaceful place... for some time.
+                    </p>
+                    <a style="margin-right: 10px" target="_blank" href="https://www.tapatalk.com/groups/awesomecs/head-roller-t275.html" class="cd-timeline__read-more">Read more</a>
+                    <a style="margin-right: 10px" target="_blank" href="https://www.tapatalk.com/groups/awesomecs/lolumad-t269.html" class="cd-timeline__read-more">Read more</a>
+                    <span class="cd-timeline__date">Jan 2017</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--turquoise js-cd-img">
+                    <img src="img/cd-icon-children.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>The Inavasion of 12 Year Old Kids</h2>
+                    <p>A month after the Civil war the server was once again in disorder. A new treat arises on the horizon
+                        in the form of the most hated enemy by LOLIOMAD - 12 years old kids. "We have to do SOMETHING and
+                        do it FAST!" is what he said, but there is nothing to be done.</p>
+                    <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/why-is-the-server-dying-and-why-the-pro-players-le-t381.html"
+                        class="cd-timeline__read-more" style="margin-right: 10px">Read more</a>
+                    <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/my-opinion-on-the-server-t311.html" class="cd-timeline__read-more"
+                        style="margin-right: 10px">Read more</a>
+                    <span class="cd-timeline__date">Feb 2017</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--white js-cd-img">
+                    <img src="img/cd-icon-facebook.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Facebook Page</h2>
+                    <p>First was suggested by Black Panther, then
+                        <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/facebook-page-and-group-vote-t365.html">there was a vote</a> if we should have it. At end it was decided that it can only help us get a better
+                        recognition.
+                    </p>
+                    <a target="_blank" href="https://www.fb.me/awesomecarscs" class="cd-timeline__read-more">Like</a>
+                    <span class="cd-timeline__date">March 2017</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--purple js-cd-img">
+                    <img src="img/cd-icon-mode.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>3 Modes in 1</h2>
+                    <p>
+                        <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/viewtopic.php?f=9&t=30&p=256&hilit=night#p256">Night Deathmatch</a> was active for quite a while, but then I decided to make the server more popular
+                        than only cars by
+                        <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/real-time-updates-t30-s40.html#p2250">adding classic mode</a> which took place after 10PM and then at 11PM deathmatch started. After some
+                        time classic mode was voted out and on
+                        <a href="http://awesomecs.syntrwave.com/viewtopic.php?f=8&t=975">Feb 2018</a>, Deathmatch was gone forever.</p>
+                    <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/new-changes-t400.html" class="cd-timeline__read-more"
+                        style="margin-right: 10px">Read More</a>
+                    <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/deathmatch-problem-t244.html" class="cd-timeline__read-more"
+                        style="margin-right: 10px">Read More</a>
+                    <span class="cd-timeline__date">May 2017</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--dark js-cd-img">
+                    <img src="img/cd-icon-people.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Our Own Forum</h2>
+                    <p>It was announced that all Prophpbb forums will be migrated to Tapatalk Groups including ours, which required
+                        money to be invested into buying something that we actually own ourselves. That's how the new forum
+                        came to existence and it's better than ever.</p>
+                    <a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=2&t=9" class="cd-timeline__read-more">Read More</a>
+                    <span class="cd-timeline__date">Sep 2017</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--orange js-cd-img">
+                    <img src="img/cd-icon-calendar.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Boost Schedule</h2>
+                    <p>While ArtiseXplosion was an admin he proposed a great initiative, it was a way to deal with the server
+                        being empty. Since then only Maverick remains to regularly boost the server and
+                        <a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=8&t=865">result has been great</a>.</p>
+                    <a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=8&t=851" class="cd-timeline__read-more">Read More</a>
+                    <span class="cd-timeline__date">Nov 2017</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--darkred js-cd-img">
+                    <img src="img/cd-icon-evil.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Ammar Abuse and the new VIP System</h2>
+                    <p>Once again we had a big crysis with giving too much power in the hands of the unworthy. Ammar was the
+                        prime example that players shouldn't be given power. Premium VIP was a mistake from the beginning
+                        and Ammar with his abusive behaviour shows that.The VIP needs to be changed. Since the last Admin
+                        Council with Nojarq it
+                        <a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=8&t=898">was decided</a> we will never do this mistake again. The whole VIP system has been reworked.</p>
+                    <a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=11&t=892&" class="cd-timeline__read-more">Read More</a>
+                    <span class="cd-timeline__date">Dec 2017</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--yellow js-cd-img">
+                    <img src="img/cd-icon-superhero.svg" alt="People">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Skin Models Crysis</h2>
+                    <p>By far the bigest topic is about new player skins, in which lots of opinion were left in favor of new
+                        ones. Maverick's rejection lead to LOLUMAD giving up on the server
+                        <a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=2&t=1006">later on</a>.</p>
+                    <a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=8&t=992" class="cd-timeline__read-more">Read More</a>
+                    <span class="cd-timeline__date">March 2018</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--turquoise js-cd-img">
+                    <img src="img/roller.gif" alt="Image" style="border-radius: 50%">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>First Head Admin</h2>
+                    <p>
+                        For the first time since the beginning of the server, a new Head Admin has been appointed. For his contribution as Admin
+                        for more than two years, Mr.Roller has been promoted.</p>
+                    <a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=2&t=1160" class="cd-timeline__read-more">Read More</a>
+                    <span class="cd-timeline__date">May 2018</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--darkred js-cd-img">
+                    <img src="img/cd-icon-map.svg" alt="Image">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Nojarq Neighborhood</h2>
+                    <p>
+                        First
+                        <a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=12&t=86">announced</a> in October of 2017, the new map of Nojarq was has overcome many difficulties on its
+                        road, but after a couple of months, it was finally ready to be released.
+                        Nojarq_neighborhood is a big open area map with houses, tunnels and a lot of things to explore.
+                    </p>
+                    <a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=2&t=1193" class="cd-timeline__read-more">Read More</a>
+                    <span class="cd-timeline__date">June 2018</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            <div class="cd-timeline__block js-cd-block">
+                <div class="cd-timeline__img cd-timeline__img--blue js-cd-img">
+                    <img src="img/cd-icon-podcast.svg" alt="Image" style="border-radius: 50%">
+                </div>
+                <!-- cd-timeline__img -->
+
+                <div class="cd-timeline__content js-cd-content">
+                    <h2>Awesome Cars Podcast</h2>
+                    <p>An idea of having our own thing like a talk show or some way of connecting us to the community and everyone
+                        gets a better understanding of who is behind the scenes along with discussing important server stuff.</p>
+                    <a target="_blank" href="http://awesomecs.syntrwave.com/viewtopic.php?f=12&t=1216" class="cd-timeline__read-more">Read More</a>
+                    <span class="cd-timeline__date">June 2018</span>
+                </div>
+                <!-- cd-timeline__content -->
+            </div>
+            <!-- cd-timeline__block -->
+
+            
+        </div>
+    </section>
+    <!-- cd-timeline -->
+
+
+
+    <center>
+        <div class="final">
+            <span id="dateToday" class="date"></span>
+            <h2>The Day You Join Awesome Cars!</h2>
+            <p>We are well known internationally Counter-Strike 1.6 server, leader in so-called "Vehicle War" mode of the game
+                with more than 20 000 players worldwide.</p>
+        </div>
 
 
     </center>
-    
+
+
+    <script>
+        // (function () {
+        //     if ($('p').text().length >= 140) {
+        //         //$('p').hide()
+        //     }
+
+        //     $('.cd-timeline__read-more').on('click', function () {
+        //         if ($(this).text() == 'Read More') {
+        //             $(this).text('Read Less')
+        //             $(this).parent().find('p').slideToggle(400)
+        //         } else {
+        //             $(this).text('Read More')
+        //             $(this).parent().find('p').slideToggle(400)
+        //         }
+        //     })
+        // })()
+    </script>
+
     <script>
         function getDate() {
             let date = new Date().toString()
             date = date.slice(0, 15)
             return date
         }
-            document.getElementById("dateToday").innerHTML = getDate()
+        document.getElementById("dateToday").innerHTML = getDate()
     </script>
 
 
-	<script src="js/main.js"></script>
-	<!-- Resource JavaScript -->
+    <script src="js/main.js"></script>
+    <!-- Resource JavaScript -->
 </body>
 
 </html>
