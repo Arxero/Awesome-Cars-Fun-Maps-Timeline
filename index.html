@@ -9,8 +9,8 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/reset.css">
     <!-- CSS reset -->
@@ -296,7 +296,8 @@
                         A new plugin was introduced to help bring new players to the empty server at the time. It gives players free VIP automatically
                         after they reach 500 kills. It was a good idea at first and everything was fine for a time, but then
                         the server became overflooded with VIPs, many of which ware kids with toxic behavior. Something needed
-                        to be changed so we can <span style="color:#00FF00">#MakeAwesomeCarsGreatAgain</span>!
+                        to be changed so we can
+                        <span style="color:#00FF00">#MakeAwesomeCarsGreatAgain</span>!
                     </p>
                     <a target="_blank" href="https://www.tapatalk.com/groups/awesomecs/admins-vip-t109.html" class="cd-timeline__read-more">Read more</a>
                     <span class="cd-timeline__date">Nov 2016</span>
@@ -637,6 +638,14 @@
     </center>
 
 
+        <!-- Return to Top -->
+        <a href="javascript:" id="return-to-top">
+            <i class="icon-chevron-up"></i>
+        </a>
+        <a href="javascript:" id="return-to-bottom">
+            <i class="icon-chevron-down"></i>
+        </a>
+
     <script>
         (function () {
             if ($('#hidden').text()) {
@@ -662,6 +671,41 @@
             return date
         }
         document.getElementById("dateToday").innerHTML = getDate()
+    </script>
+
+
+    <script>
+        // ===== Scroll to Top ==== 
+        $(window).scroll(() => {
+            if ($(this).scrollTop() >= 300) {        // If page is scrolled more than 50px
+                $('#return-to-top').fadeIn(500)    // Fade in the arrow
+            } else {
+                $('#return-to-top').fadeOut(500)   // Else fade out the arrow
+            }
+        })
+        $('#return-to-top').click(() => {      // When arrow is clicked
+            $('body, html').animate({
+                scrollTop: 0                       // Scroll to top of body
+            }, 500)
+        })
+
+        // ===== Scroll to Bottom ==== 
+        let height = $(document).height()
+        let maxScrollBottom = height -  $(window).height()
+
+        $(window).scroll(() => {
+            if ($(this).scrollTop() == maxScrollBottom) {
+                $('#return-to-bottom').fadeOut(500)
+            } else {
+                $('#return-to-bottom').fadeIn(500)
+            }
+        })
+
+        $('#return-to-bottom').click(() => {
+            $('html, body').animate({
+                scrollTop: height
+            }, 700)
+        });
     </script>
 
     <script src="js/main.js"></script>
