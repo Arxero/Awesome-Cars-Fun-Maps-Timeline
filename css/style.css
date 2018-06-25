@@ -456,7 +456,7 @@ header h1 {
 
 .final {
   position: relative;
-  width: 700px;
+  width: 50%;
   background: #111111;
   border-radius: 0.25em;
   padding: 1em;
@@ -464,6 +464,16 @@ header h1 {
   line-height: 1.6em;
   -webkit-box-shadow: 0 3px 0 #D40014;
           box-shadow: 0 3px 0 rgb(92, 175, 223)
+}
+
+
+@media only screen and (max-width: 1072px) {
+    .final {
+        width: 80%;
+        left: 30px;
+        font-size: 100%;
+      }
+
 }
 
 
