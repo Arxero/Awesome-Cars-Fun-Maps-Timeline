@@ -306,7 +306,8 @@ header h1 {
 }
 
 .cd-timeline__read-more:hover {
-  background-color: #296AA3;
+  background-color: rgb(37, 120, 192);
+  color: #DADADA;
 }
 
 .cd-timeline__date {
